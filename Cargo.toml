@@ -1,0 +1,18 @@
+[package]
+name = "Russian_Translator"
+version = "0.1.0"
+edition = "2021"
+authors = ["Gabriel Haeck <haeckgabriel@gmail.com>"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = {version="1", features = ["full"]}
+reqwest = "0.11.7"
+scraper = "0.12.0"
+clap = { version = "*", features = ["derive"]}
+cssparser = "*"
+selectors = "*"
+thiserror = "1.0"
+colored = "2"
+vecshard = "0.2.1"
